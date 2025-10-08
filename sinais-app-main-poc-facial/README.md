@@ -88,15 +88,3 @@ npx expo install expo-camera expo-face-detector
 4. Observe a confirmação **“Rosto detectado ✅”** e prossiga.
 5. (Opcional) Verifique nos logs que o evento **FACE_RECOGNIZED** foi registrado pelo `AuditService`.
 
-### 📦 Arquivos adicionados/alterados
-- `screens/FaceAuthScreen.tsx` (novo)
-- `App.tsx` (rota e import adicionados)
-- `screens/HomeScreen.tsx` (botão de acesso à PoC)
-- `app.json` (plugin/permissão da câmera)
-- `README.md` (esta seção)
-
-### 🎥 Dica para o vídeo (até 5 min)
-- 20s: arquitetura e onde está o módulo (tela + serviços).
-- 2min: demonstração do fluxo **face → evento → ação**.
-- 1min: explicar onde isso se conecta no app (ex.: segurança, auditoria, login).
-- 1min: próximos passos (autenticar usuário, associar ID, threshold de confiança, etc.).
